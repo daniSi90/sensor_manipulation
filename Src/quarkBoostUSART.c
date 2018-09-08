@@ -91,7 +91,7 @@ void quarkBoostMessage(UART_HandleTypeDef* USARThandle, quarkBoostDef* dataStruc
 			HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
 			
 			/* Check for MENU sequence */
-			quarkBoostMenu(dDat, dataStruct);
+			//quarkBoostMenu(dDat, dataStruct);
 			
 			/* Manipulate motor data */
 			manipulateData(mDat, dataStruct);
